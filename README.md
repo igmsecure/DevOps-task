@@ -1,6 +1,6 @@
 ## DevOps-task
 
-#### Реализовать _Firewall_ на `iptables`, в котором будет разделение на цепочки(`chain`) по указанным критериям:![WAFScript](https://github.com/igmsecure/DevOps-task/tree/main/WAFScript)
+#### 1. Реализовать _Firewall_ на `iptables`, в котором будет разделение на цепочки(`chain`) по указанным критериям:[WAFScript](https://github.com/igmsecure/DevOps-task/tree/main/WAFScript)
 
 - _цепочка для адресов, которым разрешено все (все порты)_
 - _цепочка для адресов серверов баз данных и контейнеров с приложением, которым разрешено все_
@@ -12,9 +12,10 @@
 В выводе `iptables -L` каждый добавленный адрес должен быть подписан именем.
 
 ##### Ход выполнения:
+<h5 align="center">Ход выполнения: <a href="https://github.com/igmsecure/DevOps-task/tree/main/WAFScript" target="_blank">[WAFScript]</a> 
 
-bash
-#!/bin/bash
+`bash`
+`#!/bin/bash`
 
 1.1 Создание цепочки для адресов, которым разрешено все (все порты):
 
