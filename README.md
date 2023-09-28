@@ -13,9 +13,9 @@
 
 Ход выполнения: <a href="https://github.com/igmsecure/DevOps-task/tree/main/WAFScript" target="_blank">[WAFScript]</a> 
 
-</hr>
+---
 
-#### 2. Написать скрипт backup’a который: [Backup[Script]](https://github.com/igmsecure/DevOps-task/tree/main/Backup[Script])
+#### 2. Написать скрипт `backup’a` который: [Backup[Script]](https://github.com/igmsecure/DevOps-task/tree/main/Backup[Script])
 
 1. _Соединяется с другим сервером и копирует данные. Копирование происходит в зашифрованном, сжатом виде_
 2. _Есть возможность изменять некоторые параметры при запуске скрипта:_
