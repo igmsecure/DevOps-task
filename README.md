@@ -11,8 +11,9 @@
 Остальной траффик блокируем и все что блокируем - логируем. Для каждой цепочки организовать свой файл лога. 
 В выводе `iptables -L` каждый добавленный адрес должен быть подписан именем.
 
-##### Ход выполнения:
-<h5 align="center">Ход выполнения: <a href="https://github.com/igmsecure/DevOps-task/tree/main/WAFScript" target="_blank">[WAFScript]</a> 
+<h4 align="center">
+  Ход выполнения: <a href="https://github.com/igmsecure/DevOps-task/tree/main/WAFScript" target="_blank">[WAFScript]</a> 
+</h4>
 
 `bash`
 `#!/bin/bash`
