@@ -29,8 +29,8 @@
 3. Для ротации устаревших версий используется logrotate.
 
 Логика работы: для `full backup` создается 2 папки (аналогично и для `incremental`):
-`Full (Inc)` — сохраняется последний backup
-`FullOld (IncOld)` — последние backup, именно эти файлы и ротируются
+- _`Full (Inc)` — сохраняется последний backup_
+- _`FullOld (IncOld)` — последние backup, именно эти файлы и ротируются_
 
 Ход выполнения: <a href="https://github.com/igmsecure/DevOps-task/tree/main/Backup[Script]" target="_blank">Backup[Script]</a> 
 
