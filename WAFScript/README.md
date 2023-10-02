@@ -57,19 +57,19 @@
 
 Для каждой цепочки организовать свой файл лога:
 
-- `sudo iptables -A ALLOW_ALL -j LOG --log-prefix "ALLOW_ALL: " --log-level 4 --log-file /var/log/allow_all.log` — добавляет правило в цепочку ALLOW_ALL, которое логирует все пакеты с префиксом "ALLOW_ALL: " и записывает их в файл /var/log/allow_all.log.
+- `sudo iptables -A ALLOW_ALL -j LOG --log-prefix "ALLOW_ALL: " --log-level 4 --log-file /var/log/allow_all.log` — добавляет правило в цепочку ALLOW_ALL, которое логирует все пакеты с префиксом "ALLOW_ALL: " и записывает их в файл `/var/log/allow_all.log`.
 
 
-- `sudo iptables -A DB_APP_SERVERS -j LOG --log-prefix "DB_APP_SERVERS: " --log-level 4 --log-file /var/log/db_app_servers.log` — добавляет правило в цепочку DB_APP_SERVERS, которое логирует все пакеты с префиксом "DB_APP_SERVERS: " и записывает их в файл /var/log/db_app_servers.log.
+- `sudo iptables -A DB_APP_SERVERS -j LOG --log-prefix "DB_APP_SERVERS: " --log-level 4 --log-file /var/log/db_app_servers.log` — добавляет правило в цепочку DB_APP_SERVERS, которое логирует все пакеты с префиксом "DB_APP_SERVERS: " и записывает их в файл `/var/log/db_app_servers.log`.
 
 
-- `sudo iptables -A ON_DEMAND_ACCESS -j LOG --log-prefix "ON_DEMAND_ACCESS: " --log-level 4 --log-file /var/log/on_demand_access.log` — добавляет правило в цепочку ON_DEMAND_ACCESS, которое логирует все пакеты с префиксом "ON_DEMAND_ACCESS: " и записывает их в файл /var/log/on_demand_access.log.
+- `sudo iptables -A ON_DEMAND_ACCESS -j LOG --log-prefix "ON_DEMAND_ACCESS: " --log-level 4 --log-file /var/log/on_demand_access.log` — добавляет правило в цепочку ON_DEMAND_ACCESS, которое логирует все пакеты с префиксом "ON_DEMAND_ACCESS: " и записывает их в файл `/var/log/on_demand_access.log`.
 
 
-- `sudo iptables -A TEMP_ACCESS -j LOG --log-prefix "TEMP_ACCESS: " --log-level 4 --log-file /var/log/temp_access.log` — добавляет правило в цепочку TEMP_ACCESS, которое логирует все пакеты с префиксом "TEMP_ACCESS: " и записывает их в файл /var/log/temp_access.log.
+- `sudo iptables -A TEMP_ACCESS -j LOG --log-prefix "TEMP_ACCESS: " --log-level 4 --log-file /var/log/temp_access.log` — добавляет правило в цепочку TEMP_ACCESS, которое логирует все пакеты с префиксом "TEMP_ACCESS: " и записывает их в файл `/var/log/temp_access.log`.
 
 
-- `sudo iptables -A PUBLIC_PORTS -j LOG --log-prefix "PUBLIC_PORTS: " --log-level 4 --log-file /var/log/public_ports.log` — добавляет правило в цепочку PUBLIC_PORTS, которое логирует все пакеты с префиксом "PUBLIC_PORTS: " и записывает их в файл /var/log/public_ports.log.
+- `sudo iptables -A PUBLIC_PORTS -j LOG --log-prefix "PUBLIC_PORTS: " --log-level 4 --log-file /var/log/public_ports.log` — добавляет правило в цепочку PUBLIC_PORTS, которое логирует все пакеты с префиксом "PUBLIC_PORTS: " и записывает их в файл `/var/log/public_ports.log`.
 
 
 Вывод команды `iptables -L` должен показывать каждый добавленный адрес с подписью именем.
@@ -78,7 +78,7 @@
 
 `sudo iptables-save > /etc/iptables/WAFScipt.sh`
 
-Это команда сохранит правила iptables в файл /etc/iptables/WAFScipt.sh.
+Это команда сохранит правила iptables в файл `/etc/iptables/WAFScipt.sh`.
 </hr>
 
 
